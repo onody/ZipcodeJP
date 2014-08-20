@@ -7,11 +7,25 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "GetAddr.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+
+        GetAddr *ga = [GetAddr new];
+        NSArray *addr = [ga getAddr:@"4110043"];
+        
+        NSUInteger count = [addr count];
+        
+        if(count > 0){
+            for (id obj in addr) {
+                NSLog(@"%@", obj);
+            }
+        }else{
+            NSLog(@"address data was not found.");
+        }
+        
+        
     }
     return 0;
 }
