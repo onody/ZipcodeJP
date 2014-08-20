@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		97338D4319A071A500DABAA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97338D4219A071A500DABAA9 /* main.m */; };
+		97338D4B19A071B400DABAA9 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 97338D4919A071B400DABAA9 /* libsqlite3.0.dylib */; };
+		97338D4C19A071B400DABAA9 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 97338D4A19A071B400DABAA9 /* libsqlite3.dylib */; };
+		97338D7519A0726700DABAA9 /* FMDatabase+InMemoryOnDiskIO.m in Sources */ = {isa = PBXBuildFile; fileRef = 97338D6819A0726700DABAA9 /* FMDatabase+InMemoryOnDiskIO.m */; };
+		97338D7619A0726700DABAA9 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 97338D6B19A0726700DABAA9 /* FMDatabase.m */; };
+		97338D7719A0726700DABAA9 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 97338D6D19A0726700DABAA9 /* FMDatabaseAdditions.m */; };
+		97338D7819A0726700DABAA9 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 97338D6F19A0726700DABAA9 /* FMDatabasePool.m */; };
+		97338D7919A0726700DABAA9 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 97338D7119A0726700DABAA9 /* FMDatabaseQueue.m */; };
+		97338D7A19A0726700DABAA9 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 97338D7419A0726700DABAA9 /* FMResultSet.m */; };
+		97DB8C3819A437A900C2BC92 /* GetAddr.m in Sources */ = {isa = PBXBuildFile; fileRef = 97DB8C3719A437A900C2BC92 /* GetAddr.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +34,24 @@
 /* Begin PBXFileReference section */
 		97338D3F19A071A500DABAA9 /* ZipcodeJP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ZipcodeJP; sourceTree = BUILT_PRODUCTS_DIR; };
 		97338D4219A071A500DABAA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		97338D4919A071B400DABAA9 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		97338D4A19A071B400DABAA9 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		97338D6719A0726700DABAA9 /* FMDatabase+InMemoryOnDiskIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMDatabase+InMemoryOnDiskIO.h"; sourceTree = "<group>"; };
+		97338D6819A0726700DABAA9 /* FMDatabase+InMemoryOnDiskIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FMDatabase+InMemoryOnDiskIO.m"; sourceTree = "<group>"; };
+		97338D6A19A0726700DABAA9 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		97338D6B19A0726700DABAA9 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		97338D6C19A0726700DABAA9 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		97338D6D19A0726700DABAA9 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		97338D6E19A0726700DABAA9 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		97338D6F19A0726700DABAA9 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		97338D7019A0726700DABAA9 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		97338D7119A0726700DABAA9 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		97338D7219A0726700DABAA9 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		97338D7319A0726700DABAA9 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		97338D7419A0726700DABAA9 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		9796E13419A469F1003466C1 /* sample_app.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample_app.db; sourceTree = "<group>"; };
+		97DB8C3619A437A900C2BC92 /* GetAddr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetAddr.h; sourceTree = "<group>"; };
+		97DB8C3719A437A900C2BC92 /* GetAddr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetAddr.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97338D4B19A071B400DABAA9 /* libsqlite3.0.dylib in Frameworks */,
+				97338D4C19A071B400DABAA9 /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +70,8 @@
 		97338D3619A071A500DABAA9 = {
 			isa = PBXGroup;
 			children = (
+				97338D4919A071B400DABAA9 /* libsqlite3.0.dylib */,
+				97338D4A19A071B400DABAA9 /* libsqlite3.dylib */,
 				97338D4119A071A500DABAA9 /* ZipcodeJP */,
 				97338D4019A071A500DABAA9 /* Products */,
 			);
@@ -57,9 +88,57 @@
 		97338D4119A071A500DABAA9 /* ZipcodeJP */ = {
 			isa = PBXGroup;
 			children = (
+				9796E13419A469F1003466C1 /* sample_app.db */,
+				97338D6419A0724F00DABAA9 /* lib */,
 				97338D4219A071A500DABAA9 /* main.m */,
+				97DB8C3619A437A900C2BC92 /* GetAddr.h */,
+				97DB8C3719A437A900C2BC92 /* GetAddr.m */,
 			);
 			path = ZipcodeJP;
+			sourceTree = "<group>";
+		};
+		97338D6419A0724F00DABAA9 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				97338D6519A0725600DABAA9 /* FMDB */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		97338D6519A0725600DABAA9 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				97338D6619A0726700DABAA9 /* extra */,
+				97338D6919A0726700DABAA9 /* fmdb */,
+			);
+			name = FMDB;
+			sourceTree = "<group>";
+		};
+		97338D6619A0726700DABAA9 /* extra */ = {
+			isa = PBXGroup;
+			children = (
+				97338D6719A0726700DABAA9 /* FMDatabase+InMemoryOnDiskIO.h */,
+				97338D6819A0726700DABAA9 /* FMDatabase+InMemoryOnDiskIO.m */,
+			);
+			path = extra;
+			sourceTree = "<group>";
+		};
+		97338D6919A0726700DABAA9 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				97338D6A19A0726700DABAA9 /* FMDatabase.h */,
+				97338D6B19A0726700DABAA9 /* FMDatabase.m */,
+				97338D6C19A0726700DABAA9 /* FMDatabaseAdditions.h */,
+				97338D6D19A0726700DABAA9 /* FMDatabaseAdditions.m */,
+				97338D6E19A0726700DABAA9 /* FMDatabasePool.h */,
+				97338D6F19A0726700DABAA9 /* FMDatabasePool.m */,
+				97338D7019A0726700DABAA9 /* FMDatabaseQueue.h */,
+				97338D7119A0726700DABAA9 /* FMDatabaseQueue.m */,
+				97338D7219A0726700DABAA9 /* FMDB.h */,
+				97338D7319A0726700DABAA9 /* FMResultSet.h */,
+				97338D7419A0726700DABAA9 /* FMResultSet.m */,
+			);
+			path = fmdb;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +197,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97338D7619A0726700DABAA9 /* FMDatabase.m in Sources */,
 				97338D4319A071A500DABAA9 /* main.m in Sources */,
+				97338D7A19A0726700DABAA9 /* FMResultSet.m in Sources */,
+				97338D7819A0726700DABAA9 /* FMDatabasePool.m in Sources */,
+				97338D7519A0726700DABAA9 /* FMDatabase+InMemoryOnDiskIO.m in Sources */,
+				97338D7719A0726700DABAA9 /* FMDatabaseAdditions.m in Sources */,
+				97338D7919A0726700DABAA9 /* FMDatabaseQueue.m in Sources */,
+				97DB8C3819A437A900C2BC92 /* GetAddr.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +318,7 @@
 				97338D4819A071A500DABAA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
