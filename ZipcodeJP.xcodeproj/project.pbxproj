@@ -49,9 +49,9 @@
 		97338D7219A0726700DABAA9 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
 		97338D7319A0726700DABAA9 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
 		97338D7419A0726700DABAA9 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
-		9796E13419A469F1003466C1 /* sample_app.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample_app.db; sourceTree = "<group>"; };
 		97DB8C3619A437A900C2BC92 /* GetAddr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetAddr.h; sourceTree = "<group>"; };
 		97DB8C3719A437A900C2BC92 /* GetAddr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetAddr.m; sourceTree = "<group>"; };
+		97F128AF19A48D5E00C05101 /* app.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = app.db; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +88,7 @@
 		97338D4119A071A500DABAA9 /* ZipcodeJP */ = {
 			isa = PBXGroup;
 			children = (
-				9796E13419A469F1003466C1 /* sample_app.db */,
+				97F128AE19A48D4F00C05101 /* db */,
 				97338D6419A0724F00DABAA9 /* lib */,
 				97338D4219A071A500DABAA9 /* main.m */,
 				97DB8C3619A437A900C2BC92 /* GetAddr.h */,
@@ -139,6 +139,14 @@
 				97338D7419A0726700DABAA9 /* FMResultSet.m */,
 			);
 			path = fmdb;
+			sourceTree = "<group>";
+		};
+		97F128AE19A48D4F00C05101 /* db */ = {
+			isa = PBXGroup;
+			children = (
+				97F128AF19A48D5E00C05101 /* app.db */,
+			);
+			name = db;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

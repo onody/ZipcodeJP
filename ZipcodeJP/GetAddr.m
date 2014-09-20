@@ -15,10 +15,8 @@
 - (NSArray*)getAddr:(NSString*)zipcode{
     
     
-    NSArray *paths = NSSearchPathForDirectoriesInDomains( NSDocumentDirectory, NSUserDomainMask, YES );
-    NSString *dir = [paths objectAtIndex:0];
-    
-    FMDatabase *db    = [FMDatabase databaseWithPath:[dir stringByAppendingPathComponent:@"app.db"]];
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"app" ofType:@"db"];
+    FMDatabase *db    = [FMDatabase databaseWithPath:filePath];
     
     NSString *sql_select = [NSString stringWithFormat:@"SELECT id, pref, city, address FROM zipcodes WHERE code = '%@' LIMIT 1;", zipcode];
 
